@@ -17,7 +17,7 @@ except Exception:
 
 #mise en place de la fonction
 cursor = bd.cursor()
-query = "INSERT INTO mydata (dateA, hoursA, temperature,Luminosity,Humidity,AirQuality,UVvalue) VALUES (%s, %s, %s, %s, %s,%s,%s)"
+query = "INSERT INTO mydata (dateA, hoursA, Temperature,Luminosity,Humidity,AirQuality,UVvalue) VALUES (%s, %s, %s, %s, %s,%s,%s)"
 #boucle qui enregistre les données
 
 
