@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $datetime = $row['dateA'] . ' ' . $row['hoursA'];
         array_push($data['dates'], $datetime);
-        array_push($data['temperatures'], $row['temperature']);
+        array_push($data['temperatures'], $row['Temperature']);
         array_push($data['humiditys'], $row['Humidity']);
         array_push($data['luminositys'], $row['Luminosity']);
         array_push($data['airQualitys'],$row['AirQuality']);
