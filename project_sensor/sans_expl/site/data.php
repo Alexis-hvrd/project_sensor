@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
 }
 
-$sql = 'SELECT dateA, hoursA, temperature, Luminosity, Humidity, AirQuality, UVvalue FROM mydata';
+$sql = 'SELECT dateA, hoursA, Temperature, Luminosity, Humidity, AirQuality, UVvalue FROM mydata';
 $result = $conn->query($sql);
 
 $data = array(
