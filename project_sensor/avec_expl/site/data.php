@@ -14,7 +14,7 @@ if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
 }
 //Function to retrieve data from my database
-$sql = 'SELECT dateA, hoursA, temperature, Luminosity, Humidity, AirQuality, UVvalue FROM mydata';
+$sql = 'SELECT dateA, hoursA, Temperature, Luminosity, Humidity, AirQuality, UVvalue FROM mydata';
 $result = $conn->query($sql);
 
 //storing data from my sensors in variable data
