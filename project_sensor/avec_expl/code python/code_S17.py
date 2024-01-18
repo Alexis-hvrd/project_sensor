@@ -18,7 +18,7 @@ except Exception:
 
 #mySql function
 cursor = bd.cursor()
-query = "INSERT INTO mydata (dateA, hoursA, temperature,Luminosity,Humidity,AirQuality,UVvalue) VALUES (%s, %s, %s, %s, %s,%s,%s)"
+query = "INSERT INTO mydata (dateA, hoursA, Temperature,Luminosity,Humidity,AirQuality,UVvalue) VALUES (%s, %s, %s, %s, %s,%s,%s)"
 
 
 #loop for data retrieval and recording
